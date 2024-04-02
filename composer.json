@@ -1,0 +1,29 @@
+{
+  "name": "sophat/laravel-otp",
+  "description": "OTP Package for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sophat\\LaravelOtp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "PPhatDev",
+      "email": "info.sophat@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^8|^9|^10|^11",
+    "hi-folks/rando-php": "^0.2.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sophat\\LaravelOtp\\OtpServiceProvider"
+      ]
+    }
+  }
+}
