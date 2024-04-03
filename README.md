@@ -9,7 +9,7 @@ OTP Package for Laravel using class based system. Every Otp is a class that does
 Install via composer
 
 ```bash
-composer require Sophat/laravel-otp
+composer require sophat/laravel-otp
 ```
 
 Publish config file
